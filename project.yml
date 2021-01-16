@@ -1,23 +1,84 @@
 name: Hwp-Apple
+
 options:
   bundleIdPrefix: dev.sboh
+
+settings:  
+  defaultConfig: debug
+
 packages:
-  Hwp-Swift:
+  CoreHwp:
     url: https://github.com/sboh1214/Hwp-Swift
     version: 0.10.0
+
 targets:
   Hwp-iOS:
     type: application
     platform: iOS
     deploymentTarget: "14.0"
-    sources: [Shared, ios]
+    sources: [Shared, iOS]
     dependencies:
-      - package: Hwp-Swift
+      - package: CoreHwp
+    info:
+      path: iOS/Info.plist
+      properties:
+        CFBundleDocumentTypes:
+          -
+            CFBundleTypeName: "Hancom Word Document"
+            CFBundleTypeRole: Editor
+            LSHandlerRank: Alternate
+            LSItemContentTypes: 
+              - "com.haansoft.HancomOfficeViewer.mac.hwp"
+        UTExportedTypeDeclarations:
+          -
+            UTTypeConformsTo:
+              - "public.data"
+            UTTypeDescription: "Hancom Word Document"
+            UTTypeIconName: hwp
+            UTTypeIdentifier: "com.haansoft.HancomOfficeViewer.mac.hwp"
+            UTTypeReferenceURL: "http://www.hancom.co.kr/"
+            UTTypeTagSpecification:
+              - public.filename-extension:
+                - hwp
+
   Hwp-macOS:
     type: application
     platform: macOS
     deploymentTarget: "11.0"
     sources: [Shared, macOS]
     dependencies:
-      - package: Hwp-Swift
+      - package: CoreHwp
+    info:
+      path: macOS/Info.plist
+      properties:
+        CFBundleDocumentTypes:
+          -
+            CFBundleTypeName: "Hancom Word Document"
+            CFBundleTypeRole: Editor
+            LSHandlerRank: Alternate
+            LSItemContentTypes: 
+              - "com.haansoft.HancomOfficeViewer.mac.hwp"
+        UTExportedTypeDeclarations:
+          -
+            UTTypeConformsTo:
+              - "public.data"
+            UTTypeDescription: "Hancom Word Document"
+            UTTypeIconName: hwp
+            UTTypeIdentifier: "com.haansoft.HancomOfficeViewer.mac.hwp"
+            UTTypeReferenceURL: "http://www.hancom.co.kr/"
+            UTTypeTagSpecification:
+              - public.filename-extension:
+                - hwp
 
+  Tests-Hwp-iOS:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: ["Tests iOS"]
+    dependencies:
+      - target: Hwp-iOS
+  Tests-Hwp-macOS:
+    type: bundle.ui-testing
+    platform: macOS
+    sources: ["Tests macOS"]
+    dependencies:
+      - target: Hwp-macOS

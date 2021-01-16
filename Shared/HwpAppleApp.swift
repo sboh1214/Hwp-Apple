@@ -19,5 +19,11 @@ struct HwpAppleApp: App {
         WindowGroup("About") {
             AboutView()
         }
+        
+        #if os(macOS)
+        Settings {
+            SettingsView()
+        }
+        #endif
     }
 }

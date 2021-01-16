@@ -4,7 +4,7 @@ import CoreHwp
 
 extension UTType {
     static var hwp: UTType {
-        UTType(importedAs: "com.haansoft.HancomOfficeViewer.mac.hwp")
+        UTType(exportedAs: "com.haansoft.HancomOfficeViewer.mac.hwp")
     }
 }
 
