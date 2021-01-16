@@ -1,0 +1,23 @@
+name: Hwp-Apple
+options:
+  bundleIdPrefix: dev.sboh
+packages:
+  Hwp-Swift:
+    url: https://github.com/sboh1214/Hwp-Swift
+    version: 0.10.0
+targets:
+  Hwp-iOS:
+    type: application
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: [Shared, ios]
+    dependencies:
+      - package: Hwp-Swift
+  Hwp-macOS:
+    type: application
+    platform: macOS
+    deploymentTarget: "11.0"
+    sources: [Shared, macOS]
+    dependencies:
+      - package: Hwp-Swift
+

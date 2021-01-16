@@ -1,10 +1,3 @@
-//
-//  Tests_iOS.swift
-//  Tests iOS
-//
-//  Created by Seungbin Oh on 2021/01/14.
-//
-
 import XCTest
 
 class Tests_iOS: XCTestCase {
