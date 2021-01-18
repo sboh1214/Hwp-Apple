@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D91A7FA72D60AE0D4AAE7E6 /* HwpAppleDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3816407FFD65DBAB01559 /* HwpAppleDocument.swift */; };
+		2BBE626969190F9546182108 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919742C7D54A5F939EE02C3D /* AboutView.swift */; };
+		4570A18BCC751CEE6FAC4647 /* NSHwpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD260BB362F3042B0221B6 /* NSHwpView.swift */; };
+		483313F04A3D79A132D7E391 /* UIHwpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BBE2B0A7B8C153DCDD5BB /* UIHwpView.swift */; };
+		531A4D0E26728C7ECBF19450 /* TOCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC89F02B32EB7886C2A5C9 /* TOCView.swift */; };
+		58CD6BE51EA6709D35EA3C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69D3EA7543096A88BEA7AE6 /* Assets.xcassets */; };
+		59D2DC946BE64766B6787029 /* TOCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC89F02B32EB7886C2A5C9 /* TOCView.swift */; };
+		5F9B7508C71BD2385B129C60 /* CoreHwp in Frameworks */ = {isa = PBXBuildFile; productRef = 36D0AEA536D9A865D07841DD /* CoreHwp */; };
+		61DE1577E2C0634AD98865BF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9216845B3E7DFE4C053E /* MainView.swift */; };
+		64066A9912088029A8729451 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4186EF6084DA35CB21E44F /* PageView.swift */; };
+		772AC412ADAF13479915E15F /* HwpAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE0CD4DF8B1F0F6FA33C22 /* HwpAppleApp.swift */; };
+		7D10772B33E781FF6BB111FF /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919742C7D54A5F939EE02C3D /* AboutView.swift */; };
+		7E00E872CDF229CC804946AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 924042AFE1EF5FFE4BD468D3 /* InfoPlist.strings */; };
+		7E7A0383E942AC6E3DF719C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01ECF87F893C3A6AD4CDA9D /* ContentView.swift */; };
+		824C0EA5973582ADCCBE6525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BE046D63D7A23D3CB366ED5 /* InfoPlist.strings */; };
+		86B7E898C7902B349B1E8167 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A80291808FB5B950673C5 /* SidebarView.swift */; };
+		89A92E8ECEFAB39130CC82C7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D5EBBFD48163DAF4E7F6C /* SettingsView.swift */; };
+		9B5951FAE525EF264A1C697D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58B50AD6EA316CA05BAD74B /* Tests_iOS.swift */; };
+		A2CD15078B6A1AE255D37DB2 /* CoreHwp in Frameworks */ = {isa = PBXBuildFile; productRef = 73C300FD1AD2079C6F1073C1 /* CoreHwp */; };
+		AA9FDFEED144EF1418606D8E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A86F8DD5C291E6FBDE658 /* Tests_macOS.swift */; };
+		ADD961B0D5137CE3118C4F31 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A80291808FB5B950673C5 /* SidebarView.swift */; };
+		AF987A245AA24B61158D43E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69D3EA7543096A88BEA7AE6 /* Assets.xcassets */; };
+		BB2AE0B6B66BF2DF6BB250FF /* HwpAppleDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3816407FFD65DBAB01559 /* HwpAppleDocument.swift */; };
+		BD5B2CB287888D01F897B5F2 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4186EF6084DA35CB21E44F /* PageView.swift */; };
+		BE5EFB8B410B6DF8D05E3987 /* HwpAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BE0CD4DF8B1F0F6FA33C22 /* HwpAppleApp.swift */; };
+		C2FA4A72EEA5B82E00F78A9A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9216845B3E7DFE4C053E /* MainView.swift */; };
+		E8850C872AF6427C23B7CDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01ECF87F893C3A6AD4CDA9D /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17AE63AE1413AAEAC8024BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E46FDF594AC5F5577C67AC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0AA75DD357DED6570A44598;
+			remoteInfo = "Hwp-macOS";
+		};
+		5D4F878BE87DE8D563A8F9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E46FDF594AC5F5577C67AC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA7CB0C21E50509B2B6B83B;
+			remoteInfo = "Hwp-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF3F8444324514B42132232 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F5A86F8DD5C291E6FBDE658 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		21BE0CD4DF8B1F0F6FA33C22 /* HwpAppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HwpAppleApp.swift; sourceTree = "<group>"; };
+		279B9C396E4B0BBFC5A564E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C97A13F2D30610342AA4FD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C9ECCDE54325878D1E2A914 /* Hwp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hwp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB3816407FFD65DBAB01559 /* HwpAppleDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HwpAppleDocument.swift; sourceTree = "<group>"; };
+		5B63A228FDD03779EDA5AF4C /* Tests-Hwp-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-Hwp-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCC89F02B32EB7886C2A5C9 /* TOCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOCView.swift; sourceTree = "<group>"; };
+		5E2A80291808FB5B950673C5 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		6B4186EF6084DA35CB21E44F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		744C424A02AB54C391A38CA2 /* Hwp-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hwp-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCD260BB362F3042B0221B6 /* NSHwpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSHwpView.swift; sourceTree = "<group>"; };
+		7F9B9F9816D71DF2ED083285 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D5D5EBBFD48163DAF4E7F6C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		919742C7D54A5F939EE02C3D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9792818F4F3D2D5CC4593F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F0794BF9E159D3E4CB7D2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A58B50AD6EA316CA05BAD74B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A661B024C70E0D240D4FA3EE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B2AB9216845B3E7DFE4C053E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D1D4E4F5577331AECE173EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D69D3EA7543096A88BEA7AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D837CE5D47104EF39A3434AF /* Tests-Hwp-iOS.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "Tests-Hwp-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01ECF87F893C3A6AD4CDA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E22BBE2B0A7B8C153DCDD5BB /* UIHwpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHwpView.swift; sourceTree = "<group>"; };
+		FEA8FCB0B32CE2BE4D7657DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78945CE3E81AC165D4BC7687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9B7508C71BD2385B129C60 /* CoreHwp in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9616682EE9060EA55A29033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CD15078B6A1AE255D37DB2 /* CoreHwp in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D4929045A7460BDAF8A2A6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D5EBBFD48163DAF4E7F6C /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		29F7C7D3DF0F5CFA3867DD2D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F0794BF9E159D3E4CB7D2FA /* Info.plist */,
+				0F5A86F8DD5C291E6FBDE658 /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		8894AEF895A05C25D66E7119 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9792818F4F3D2D5CC4593F73 /* Info.plist */,
+				1BE046D63D7A23D3CB366ED5 /* InfoPlist.strings */,
+				A661B024C70E0D240D4FA3EE /* macOS.entitlements */,
+				7CCD260BB362F3042B0221B6 /* NSHwpView.swift */,
+				00D4929045A7460BDAF8A2A6 /* Settings */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		976DCC561CAC3AFB129001FC /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FEA8FCB0B32CE2BE4D7657DF /* Info.plist */,
+				A58B50AD6EA316CA05BAD74B /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		9D53C8788FBA90EDE4B4F97C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E01ECF87F893C3A6AD4CDA9D /* ContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		B2D623124CBED322CFB8E24E = {
+			isa = PBXGroup;
+			children = (
+				E25189FED3A00048E5EFF22B /* Shared */,
+				E4C269A2E2129B068809A819 /* iOS */,
+				8894AEF895A05C25D66E7119 /* macOS */,
+				976DCC561CAC3AFB129001FC /* Tests iOS */,
+				29F7C7D3DF0F5CFA3867DD2D /* Tests macOS */,
+				EB972CA66CCA8612160F9C8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8249ACD8109F6BCDF36E8B /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				6B4186EF6084DA35CB21E44F /* PageView.swift */,
+				5E2A80291808FB5B950673C5 /* SidebarView.swift */,
+				5CCC89F02B32EB7886C2A5C9 /* TOCView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		E25189FED3A00048E5EFF22B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				919742C7D54A5F939EE02C3D /* AboutView.swift */,
+				D69D3EA7543096A88BEA7AE6 /* Assets.xcassets */,
+				21BE0CD4DF8B1F0F6FA33C22 /* HwpAppleApp.swift */,
+				4BB3816407FFD65DBAB01559 /* HwpAppleDocument.swift */,
+				B2AB9216845B3E7DFE4C053E /* MainView.swift */,
+				9D53C8788FBA90EDE4B4F97C /* Content */,
+				BB8249ACD8109F6BCDF36E8B /* Sidebar */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E4C269A2E2129B068809A819 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1D4E4F5577331AECE173EAA /* Info.plist */,
+				924042AFE1EF5FFE4BD468D3 /* InfoPlist.strings */,
+				E22BBE2B0A7B8C153DCDD5BB /* UIHwpView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		EB972CA66CCA8612160F9C8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9ECCDE54325878D1E2A914 /* Hwp-iOS.app */,
+				744C424A02AB54C391A38CA2 /* Hwp-macOS.app */,
+				D837CE5D47104EF39A3434AF /* Tests-Hwp-iOS.xctest */,
+				5B63A228FDD03779EDA5AF4C /* Tests-Hwp-macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CD362209E953F6C21AF56C6 /* Tests-Hwp-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362221D1A677F6F6793C98CD /* Build configuration list for PBXNativeTarget "Tests-Hwp-macOS" */;
+			buildPhases = (
+				6A7D6AFF23424CFE55202353 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E0542FF1DA53E4B3D82227 /* PBXTargetDependency */,
+			);
+			name = "Tests-Hwp-macOS";
+			productName = "Tests-Hwp-macOS";
+			productReference = 5B63A228FDD03779EDA5AF4C /* Tests-Hwp-macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A9FD7058A9BF8533B6EC1B6E /* Tests-Hwp-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE56EFDB75DDF388BFF40C3 /* Build configuration list for PBXNativeTarget "Tests-Hwp-iOS" */;
+			buildPhases = (
+				EEF02A637D0614F6F74C99F1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFE5CFE49ED298543F95602 /* PBXTargetDependency */,
+			);
+			name = "Tests-Hwp-iOS";
+			productName = "Tests-Hwp-iOS";
+			productReference = D837CE5D47104EF39A3434AF /* Tests-Hwp-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B0AA75DD357DED6570A44598 /* Hwp-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB280A4232100F7B9B5C681 /* Build configuration list for PBXNativeTarget "Hwp-macOS" */;
+			buildPhases = (
+				7FAC51BC758721B5AC54EE39 /* Sources */,
+				0FAA59BC8163B1756C980CDD /* Resources */,
+				D9616682EE9060EA55A29033 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hwp-macOS";
+			packageProductDependencies = (
+				73C300FD1AD2079C6F1073C1 /* CoreHwp */,
+			);
+			productName = "Hwp-macOS";
+			productReference = 744C424A02AB54C391A38CA2 /* Hwp-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA7CB0C21E50509B2B6B83B /* Hwp-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5ADF963855340F844E70C8 /* Build configuration list for PBXNativeTarget "Hwp-iOS" */;
+			buildPhases = (
+				7E2C6F13DB766EED250A7FD3 /* Sources */,
+				F9BAC41129BEA1C83F72568C /* Resources */,
+				78945CE3E81AC165D4BC7687 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hwp-iOS";
+			packageProductDependencies = (
+				36D0AEA536D9A865D07841DD /* CoreHwp */,
+			);
+			productName = "Hwp-iOS";
+			productReference = 3C9ECCDE54325878D1E2A914 /* Hwp-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E46FDF594AC5F5577C67AC32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7CD362209E953F6C21AF56C6 = {
+						TestTargetID = B0AA75DD357DED6570A44598;
+					};
+					A9FD7058A9BF8533B6EC1B6E = {
+						TestTargetID = FEA7CB0C21E50509B2B6B83B;
+					};
+				};
+			};
+			buildConfigurationList = 7678B17C371B87F4A25607E9 /* Build configuration list for PBXProject "Hwp-Apple" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ko,
+			);
+			mainGroup = B2D623124CBED322CFB8E24E;
+			packageReferences = (
+				3DBC958FEACA4F763FB0F58D /* XCRemoteSwiftPackageReference "Hwp-Swift" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA7CB0C21E50509B2B6B83B /* Hwp-iOS */,
+				B0AA75DD357DED6570A44598 /* Hwp-macOS */,
+				A9FD7058A9BF8533B6EC1B6E /* Tests-Hwp-iOS */,
+				7CD362209E953F6C21AF56C6 /* Tests-Hwp-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FAA59BC8163B1756C980CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF987A245AA24B61158D43E5 /* Assets.xcassets in Resources */,
+				824C0EA5973582ADCCBE6525 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BAC41129BEA1C83F72568C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CD6BE51EA6709D35EA3C49 /* Assets.xcassets in Resources */,
+				7E00E872CDF229CC804946AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A7D6AFF23424CFE55202353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9FDFEED144EF1418606D8E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2C6F13DB766EED250A7FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBE626969190F9546182108 /* AboutView.swift in Sources */,
+				7E7A0383E942AC6E3DF719C8 /* ContentView.swift in Sources */,
+				772AC412ADAF13479915E15F /* HwpAppleApp.swift in Sources */,
+				BB2AE0B6B66BF2DF6BB250FF /* HwpAppleDocument.swift in Sources */,
+				61DE1577E2C0634AD98865BF /* MainView.swift in Sources */,
+				BD5B2CB287888D01F897B5F2 /* PageView.swift in Sources */,
+				86B7E898C7902B349B1E8167 /* SidebarView.swift in Sources */,
+				59D2DC946BE64766B6787029 /* TOCView.swift in Sources */,
+				483313F04A3D79A132D7E391 /* UIHwpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAC51BC758721B5AC54EE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D10772B33E781FF6BB111FF /* AboutView.swift in Sources */,
+				E8850C872AF6427C23B7CDC6 /* ContentView.swift in Sources */,
+				BE5EFB8B410B6DF8D05E3987 /* HwpAppleApp.swift in Sources */,
+				1D91A7FA72D60AE0D4AAE7E6 /* HwpAppleDocument.swift in Sources */,
+				C2FA4A72EEA5B82E00F78A9A /* MainView.swift in Sources */,
+				4570A18BCC751CEE6FAC4647 /* NSHwpView.swift in Sources */,
+				64066A9912088029A8729451 /* PageView.swift in Sources */,
+				89A92E8ECEFAB39130CC82C7 /* SettingsView.swift in Sources */,
+				ADD961B0D5137CE3118C4F31 /* SidebarView.swift in Sources */,
+				531A4D0E26728C7ECBF19450 /* TOCView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF02A637D0614F6F74C99F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5951FAE525EF264A1C697D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76E0542FF1DA53E4B3D82227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0AA75DD357DED6570A44598 /* Hwp-macOS */;
+			targetProxy = 17AE63AE1413AAEAC8024BD9 /* PBXContainerItemProxy */;
+		};
+		BEFE5CFE49ED298543F95602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA7CB0C21E50509B2B6B83B /* Hwp-iOS */;
+			targetProxy = 5D4F878BE87DE8D563A8F9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BE046D63D7A23D3CB366ED5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279B9C396E4B0BBFC5A564E7 /* en */,
+				0BF3F8444324514B42132232 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		924042AFE1EF5FFE4BD468D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C97A13F2D30610342AA4FD2 /* en */,
+				7F9B9F9816D71DF2ED083285 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CC5DF745350899DADED361D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Tests-Hwp-macOS";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Hwp-macOS";
+			};
+			name = Release;
+		};
+		4A1A34D286D9C51C525E9853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				defaultConfig = debug;
+			};
+			name = Debug;
+		};
+		54859A0738CC129E9DAF78C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Hwp-macOS";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		570F5DF77F6602013E526565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Hwp-macOS";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F789883C5D9A3B84E00D882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				defaultConfig = debug;
+			};
+			name = Release;
+		};
+		7506810C5EE96DD7C299508E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Hwp-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D2B1F3127AC14B8FC2A4A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Tests-Hwp-macOS";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Hwp-macOS";
+			};
+			name = Debug;
+		};
+		8E9EDC6B87ADDB49296E6004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Hwp-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC86F1E35BBDFA9D3D6A5438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Tests-Hwp-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hwp-iOS";
+			};
+			name = Debug;
+		};
+		FF2FCA89902EB83943C5AB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.sboh.Tests-Hwp-iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hwp-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FE56EFDB75DDF388BFF40C3 /* Build configuration list for PBXNativeTarget "Tests-Hwp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC86F1E35BBDFA9D3D6A5438 /* Debug */,
+				FF2FCA89902EB83943C5AB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		362221D1A677F6F6793C98CD /* Build configuration list for PBXNativeTarget "Tests-Hwp-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2B1F3127AC14B8FC2A4A19 /* Debug */,
+				2CC5DF745350899DADED361D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3FB280A4232100F7B9B5C681 /* Build configuration list for PBXNativeTarget "Hwp-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570F5DF77F6602013E526565 /* Debug */,
+				54859A0738CC129E9DAF78C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E5ADF963855340F844E70C8 /* Build configuration list for PBXNativeTarget "Hwp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7506810C5EE96DD7C299508E /* Debug */,
+				8E9EDC6B87ADDB49296E6004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7678B17C371B87F4A25607E9 /* Build configuration list for PBXProject "Hwp-Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1A34D286D9C51C525E9853 /* Debug */,
+				5F789883C5D9A3B84E00D882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DBC958FEACA4F763FB0F58D /* XCRemoteSwiftPackageReference "Hwp-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sboh1214/Hwp-Swift";
+			requirement = {
+				kind = exactVersion;
+				version = 0.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36D0AEA536D9A865D07841DD /* CoreHwp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DBC958FEACA4F763FB0F58D /* XCRemoteSwiftPackageReference "Hwp-Swift" */;
+			productName = CoreHwp;
+		};
+		73C300FD1AD2079C6F1073C1 /* CoreHwp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DBC958FEACA4F763FB0F58D /* XCRemoteSwiftPackageReference "Hwp-Swift" */;
+			productName = CoreHwp;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E46FDF594AC5F5577C67AC32 /* Project object */;
+}
